@@ -12,3 +12,4 @@ def is_armstrong(num):
 # Example usage
 num = int(input("Enter a number: "))
 print(f"{num} is an Armstrong number" if is_armstrong(num) else f"{num} is not an Armstrong number")
+# Done
