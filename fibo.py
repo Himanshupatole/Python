@@ -3,7 +3,6 @@ num1 = 0
 num2 = 1
 next_number = num2  
 count = 1
-
 while count <= n:
     print(next_number, end=" ")
     count += 1
