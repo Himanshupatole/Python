@@ -6,7 +6,6 @@ def is_armstrong(num):
         digit = temp % 10  # Extract last digit
         armstrong_sum += digit ** power  # Add digit^power to sum
         temp //= 10  # Remove last digit
-
     return armstrong_sum == num
 
 # Example usage
