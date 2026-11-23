@@ -8,6 +8,7 @@ class Account:
             self.balance += amount
             print(f"₹{amount} deposited. New balance: ₹{self.balance}")
         else:
+            
             print("Deposit amount must be positive!")
 
     def withdraw(self, amount):
